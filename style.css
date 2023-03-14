@@ -188,20 +188,3 @@ button{
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-@media screen and (max-width: 700px){
-   #container{
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-   }
-   #left{
-    width: 100%;
-    border-top-right-radius:0px;
-    border-top-left-radius: 0px;
-}
-   #right{
-    width: 100%;
-   }
-   
-}
